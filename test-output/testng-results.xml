@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="9" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-29T07:29:38Z" name="Suite" finished-at="2023-10-29T07:30:33Z" duration-ms="54163">
+    <groups>
+      <group name="sanity">
+        <method signature="LoginSectionTests.ss1()[pri:0, instance:com.guru99bankV4_testCases.LoginSectionTests@34158c08]" name="ss1" class="com.guru99bankV4_testCases.LoginSectionTests"/>
+        <method signature="LoginSectionTests.ss2_ss3_ss4(java.lang.String, java.lang.String)[pri:0, instance:com.guru99bankV4_testCases.LoginSectionTests@34158c08]" name="ss2_ss3_ss4" class="com.guru99bankV4_testCases.LoginSectionTests"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-10-29T07:29:38Z" name="Sanity_tests" finished-at="2023-10-29T07:30:33Z" duration-ms="54163">
+      <class name="com.guru99bankV4_testCases.LoginSectionTests">
+        <test-method is-config="true" signature="bfrCls()[pri:0, instance:com.guru99bankV4_testCases.LoginSectionTests@34158c08]" started-at="2023-10-29T07:29:38Z" name="bfrCls" finished-at="2023-10-29T07:29:42Z" duration-ms="3540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfrCls -->
+        <test-method is-config="true" signature="bfrMth()[pri:0, instance:com.guru99bankV4_testCases.LoginSectionTests@34158c08]" started-at="2023-10-29T07:29:42Z" name="bfrMth" finished-at="2023-10-29T07:29:55Z" duration-ms="13075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfrMth -->
+        <test-method signature="ss1()[pri:0, instance:com.guru99bankV4_testCases.LoginSectionTests@34158c08]" started-at="2023-10-29T07:29:55Z" name="ss1" finished-at="2023-10-29T07:30:17Z" duration-ms="21596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ss1 -->
+        <test-method is-config="true" signature="bfrMth()[pri:0, instance:com.guru99bankV4_testCases.LoginSectionTests@34158c08]" started-at="2023-10-29T07:30:17Z" name="bfrMth" finished-at="2023-10-29T07:30:19Z" duration-ms="2130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfrMth -->
+        <test-method signature="ss2_ss3_ss4(java.lang.String, java.lang.String)[pri:0, instance:com.guru99bankV4_testCases.LoginSectionTests@34158c08]" started-at="2023-10-29T07:30:19Z" name="ss2_ss3_ss4" data-provider="invalidCredentials" finished-at="2023-10-29T07:30:20Z" duration-ms="966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nngr531082]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YgebUra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ss2_ss3_ss4 -->
+        <test-method is-config="true" signature="bfrMth()[pri:0, instance:com.guru99bankV4_testCases.LoginSectionTests@34158c08]" started-at="2023-10-29T07:30:20Z" name="bfrMth" finished-at="2023-10-29T07:30:25Z" duration-ms="5251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfrMth -->
+        <test-method signature="ss2_ss3_ss4(java.lang.String, java.lang.String)[pri:0, instance:com.guru99bankV4_testCases.LoginSectionTests@34158c08]" started-at="2023-10-29T07:30:25Z" name="ss2_ss3_ss4" data-provider="invalidCredentials" finished-at="2023-10-29T07:30:26Z" duration-ms="933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr531081]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YgeBusa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ss2_ss3_ss4 -->
+        <test-method is-config="true" signature="bfrMth()[pri:0, instance:com.guru99bankV4_testCases.LoginSectionTests@34158c08]" started-at="2023-10-29T07:30:26Z" name="bfrMth" finished-at="2023-10-29T07:30:31Z" duration-ms="5106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfrMth -->
+        <test-method signature="ss2_ss3_ss4(java.lang.String, java.lang.String)[pri:0, instance:com.guru99bankV4_testCases.LoginSectionTests@34158c08]" started-at="2023-10-29T07:30:31Z" name="ss2_ss3_ss4" data-provider="invalidCredentials" finished-at="2023-10-29T07:30:32Z" duration-ms="1067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr631181]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ygecUrA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ss2_ss3_ss4 -->
+        <test-method is-config="true" signature="afrCls()[pri:0, instance:com.guru99bankV4_testCases.LoginSectionTests@34158c08]" started-at="2023-10-29T07:30:32Z" name="afrCls" finished-at="2023-10-29T07:30:33Z" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afrCls -->
+      </class> <!-- com.guru99bankV4_testCases.LoginSectionTests -->
+    </test> <!-- Sanity_tests -->
+  </suite> <!-- Suite -->
+</testng-results>
